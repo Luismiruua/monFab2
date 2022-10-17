@@ -1,0 +1,35 @@
+Array
+(
+    [nombre] => tgewgwe
+    [descripcion] => sisii
+    [numero de serie] => 32532523
+    [estado] => Activo
+    [prioridad] => Media
+)
+Array
+(
+    [nombre] => tgewgwe
+    [descripcion] => sisii
+    [numero de serie] => 32532523
+    [estado] => Activo
+    [prioridad] => Media
+)
+tgewgwesisii32532523ActivoMediaArray
+(
+    [nombre] => luis
+    [descripcion] => manin
+    [numero de serie] => 64874487
+    [estado] => Activo
+    [prioridad] => Media
+)
+luismanin64874487ActivoMedia
+
+Array
+(
+    [nombre] => el diablo
+    [descripcion] => vamooooo
+    [numero de serie] => 4212452523
+    [estado] => Activo
+    [prioridad] => Alta
+)
+el diablovamooooo4212452523ActivoAlta

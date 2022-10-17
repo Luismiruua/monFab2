@@ -1,5 +1,6 @@
 <?php
-    class Element{
+include "./interfaces/iToJson.php";
+    class Element implements iToJson{
         public $nombre = "";
         public $descripcion = "";
         public $numSerie = "";
@@ -112,6 +113,13 @@
                 $this->prioridad = $prioridad;
 
                 return $this;
+        }
+        function toJson($elemento){
+                $formularioArray = array("nombre" => $this->nombre, "descripcion" => $this->descripcion, "numero de serie" => $this->numSerie, "estado" => $this->estado, "prioridad" => $this->prioridad);
+                var_dump(json_encode($formularioArray));
+                file_put_contents('formulario.txt', print_r($formularioArray, true) ,FILE_APPEND);
+                
+               
         }
     }
 ?>

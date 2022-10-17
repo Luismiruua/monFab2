@@ -1,8 +1,8 @@
 <?php
     include "./models/element.php";
 
-    if(isset($_POST["enviar"]))
-    {
+    if(isset($_POST["enviar"])){
+    
         $nombre = $_POST["nombre"];        
         echo $nombre;
         echo "<br>";
@@ -18,21 +18,29 @@
         $estado = $_POST["estados"];
         echo $estado;
         echo "<br>";
-        if( $prioridad = isset($_POST["prioridad"]))
-            !empty($_POST["prioridad2"]);
-            !empty($_POST["prioridad3"]);
 
-            echo "Alta";
-         
-        if($prioridad = isset($_POST["prioridad2"]))
-            echo "Media";
-             
-        if($prioridad = isset($_POST["prioridad3"]))
-            echo "Baja";
-    }
+        $prioridad = $_POST["prioridad"];
+        echo $prioridad;
+
+    } 
     echo "<br>";
     
 
     
     $elemento = new Element($nombre, $descripcion, $numSerie, $estado, $prioridad);
+    $elemento -> toJson($elemento);
+    $archivo = 'formulario.txt';
+    $esc = fopen($archivo, 'a');
+    $texto = fwrite($esc, '');
+        fwrite($esc, $nombre);
+        fwrite($esc,$descripcion);
+        fwrite($esc, $numSerie);
+        fwrite($esc, $estado);
+        fwrite($esc, $prioridad);
+    $texto = nl2br($texto);
+    fclose($esc);
+    
+    
+
+
 ?>
