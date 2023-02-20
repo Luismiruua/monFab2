@@ -1,0 +1,62 @@
+html{
+    background-color: #80E1D9;
+
+}
+#menu{
+    text-align: center;
+
+}
+#menu a{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration:none ;
+    color: #000000;
+    display: flex;
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #80E1D9;
+    border-radius: 20px;
+}
+
+#menu a:hover{
+    background-color: #000000;
+    color: #80E1D9;
+}
+#menu li{
+
+    min-width: auto;
+    display: inline-block;
+
+}
+img{
+    width: 500px;
+    height: 350px;
+}
+
+#cnt{
+    background-color: #54828D;
+    border-radius: 20px;
+    width: 750px;
+    text-align: center;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+}
+#cnt p{
+    display: flex;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 21px;
+}
+#centr{
+    text-align: center;
+    display: block;
+    margin: auto;
+}

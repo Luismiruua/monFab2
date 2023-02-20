@@ -32,4 +32,109 @@ Array
     [estado] => Activo
     [prioridad] => Alta
 )
-el diablovamooooo4212452523ActivoAlta
+el diablovamooooo4212452523ActivoAltaArray
+(
+    [nombre] => gwegweg
+    [descripcion] => wggwgw
+    [numero de serie] => 453252
+    [estado] => Activo
+    [prioridad] => Media
+)
+gwegwegwggwgw453252ActivoMediaArray
+(
+    [nombre ] => luis
+    [ descripcion] => lorca
+    [ numero de serie] => 6845474
+    [ estado] => 
+    [ prioridad] => 
+)
+Array
+(
+    [nombre ] => luis
+    [ descripcion] => lorca
+    [ numero de serie] => 6845474
+    [ estado] => Activo
+    [ prioridad] => Media
+)
+Array
+(
+    [nombre ] => luis
+    [ descripcion] => lorca
+    [ numero de serie] => 6845474
+    [ estado] => Activo
+    [ prioridad] => Media
+)
+luislorca6845474ActivoMediaArray
+(
+    [nombre ] => luis
+    [ descripcion] => muy bueno
+    [ numero de serie] => 
+    [ estado] => Activo
+    [ prioridad] => Alta
+)
+luismuy buenoActivoAlta
+
+Array(
+    [nombre ] => luis
+    [ descripcion] => muy bueno
+    [ numero de serie] => 425252332
+    [ estado] => Activo
+    [ prioridad] => Alta
+)
+luismuy bueno425252332ActivoAltaArray
+(
+    [nombre ] => fqqwf
+    [ descripcion] => gwegewg
+    [ numero de serie] => 4215215
+    [ estado] => Activo
+    [ prioridad] => Media
+)
+fqqwfgwegewg4215215ActivoMediaArray
+(
+    [nombre ] => 
+    [ descripcion] => 
+    [ numero de serie] => 
+    [ estado] => 
+    [ prioridad] => 
+)
+Array
+(
+    [nombre ] => 
+    [ descripcion] => 
+    [ numero de serie] => 
+    [ estado] => 
+    [ prioridad] => 
+)
+Array
+(
+    [nombre ] => 
+    [ descripcion] => 
+    [ numero de serie] => 
+    [ estado] => 
+    [ prioridad] => 
+)
+Array
+(
+    [nombre ] => 
+    [ descripcion] => 
+    [ numero de serie] => 
+    [ estado] => 
+    [ prioridad] => 
+)
+Array
+(
+    [nombre ] => 1
+    [ descripcion] => 1
+    [ numero de serie] => 1
+    [ estado] => 1
+    [ prioridad] => 1
+)
+11111Array
+(
+    [nombre ] => 1
+    [ descripcion] => 1
+    [ numero de serie] => 1
+    [ estado] => 1
+    [ prioridad] => 1
+)
+11111

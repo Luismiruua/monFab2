@@ -1,29 +1,17 @@
 <?php
     include "./models/element.php";
 
-    if(isset($_POST["enviar"])){
-    
-        $nombre = $_POST["nombre"];        
-        echo $nombre;
-        echo "<br>";
+        $nombre =   isset($_POST["nombre"]);     
 
-        $descripcion = $_POST["descripcion"];
-        echo $descripcion;
-        echo "<br>";
+        $descripcion = isset($_POST["descripcion"]);
 
-        $numSerie = $_POST["serie"];
-        echo $numSerie;
-        echo "<br>";
+        $numSerie = isset($_POST["serie"]);
 
-        $estado = $_POST["estados"];
-        echo $estado;
-        echo "<br>";
+        $estado = isset($_POST["estado"]);
 
-        $prioridad = $_POST["prioridad"];
-        echo $prioridad;
+        $prioridad = isset($_POST["prioridad"]);
 
-    } 
-    echo "<br>";
+     
     
 
     
@@ -37,8 +25,11 @@
         fwrite($esc, $numSerie);
         fwrite($esc, $estado);
         fwrite($esc, $prioridad);
+        echo '<br>';
     $texto = nl2br($texto);
     fclose($esc);
+
+
     
     
 

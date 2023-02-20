@@ -115,7 +115,13 @@ include "./interfaces/iToJson.php";
                 return $this;
         }
         function toJson($elemento){
-                $formularioArray = array("nombre" => $this->nombre, "descripcion" => $this->descripcion, "numero de serie" => $this->numSerie, "estado" => $this->estado, "prioridad" => $this->prioridad);
+                $formularioArray = array(
+                        "nombre " => $this->nombre, 
+                        " descripcion" => $this->descripcion, 
+                        " numero de serie" => $this->numSerie, 
+                        " estado" => $this->estado, 
+                        " prioridad" => $this->prioridad
+                );
                 var_dump(json_encode($formularioArray));
                 file_put_contents('formulario.txt', print_r($formularioArray, true) ,FILE_APPEND);
                 

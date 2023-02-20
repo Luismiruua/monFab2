@@ -1,0 +1,144 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+html{
+    background-color: #80E1D9;
+    display: grid;
+
+}
+h1{
+    font-size: 40px;
+    
+}
+li{
+    width: max-content;
+    width: max-content;
+}
+#menu{
+    text-align: center;
+
+}
+
+#marcarTodo{
+    color: white;
+    background-color: #000000;
+}
+
+#menu a{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    cursor: pointer;
+    font-size: 30px;
+    text-decoration:none ;
+    color: #000000;
+    display: flex;
+    width: 200px;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    background-color: #80E1D9;
+    border-radius: 20px;
+}
+
+
+
+#menu li{
+
+    min-width: auto;
+    display: inline-block;
+
+}
+img{
+    width: 250px;
+    height: 250px;
+    padding-top: 20px;
+    padding-bottom:20px;
+    padding-left: 135px;
+    padding-right: 135px;
+
+}
+main{
+    text-align: center;
+}
+
+div{
+    display: grid;
+}
+input{
+    margin-top: -15px;
+    margin-bottom: 20px;
+}
+#formu{
+    background-color: #000000;
+    border-radius: 10px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    color:white ;
+    margin-top: 30px;
+}
+#formu p{
+    width: min-content;
+    height: min-content;
+    display: flex;
+    margin-bottom: 10px;
+
+}
+
+.cajas{
+    width: min-content;
+    text-align: center;
+}
+.cajas p{
+    padding-right: 20px;
+    margin-left: 10px;
+
+}
+#izq{
+    width: max-content;
+    height: min-content;
+    text-align: center;
+    margin-left: 45px;
+}
+
+#rd_btn{
+    display: inline-block;
+
+}
+
+#btn-frm{
+    background-color: #80E1D9;
+    border: none;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    width: 100px;
+}
+#formu p{
+    font-size: 25px;
+    width: max-content;
+    padding: 10px;
+
+
+}
+p{
+    border-top: 15px;
+}
+input{
+    width: max-content;
+    height: 30px;
+    border-radius: 7px;
+    border:1px solid black;
+}
+label{
+
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 21px;
+    position: relative;
+}
